@@ -1,4 +1,4 @@
-# README
+# The Magic of has_many associations in Rails 4
 
 This is an example app to go with an article about using a `has_many through` association
 in a form using Rails 4.
