@@ -1,0 +1,13 @@
+<h1>New Survey</h1>
+
+<%= form_for survey do |f| %>
+  <fieldset>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+
+    <%= f.label :user_ids, 'Invite users' %>
+    <%= f.collection_select :user_ids, users, :id, :name, {}, { multiple: true } %>
+
+    <%= f.submit %>
+  </fieldset>
+<% end %>

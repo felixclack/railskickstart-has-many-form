@@ -1,0 +1,8 @@
+<div class='survey'>
+  <dl>
+    <dt>Name</dt>
+    <dd><%= survey.name %></dd>
+    <dt>Users</dt>
+    <dd><%= survey.users.map(&:name).join(', ') %></dd>
+  </dl>
+</div>
